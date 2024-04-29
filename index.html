@@ -1,17 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Parkour gamee</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>the website</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
-    <main>
-        <button>play</button>
-    </main>
-	<script src="index.js"></script>
+    <script src="script.js"></script>
+    <body>
+      <p id="dest">
+      
+      </p>
+      <button onclick="download()">
+          click me
+      </button>
+      
+   </body>
+   <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js">
+   </script>
+   <script>
+      function download(){
+        play()
+          axios({
+              url:'https://filebin.net/ufyg7xtvv7haa38w',
+              method:'GET',
+              responseType: 'blob'
+      })
+      }
+       
+   </script>
   </body>
 </html>
