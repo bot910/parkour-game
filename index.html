@@ -13,22 +13,15 @@
       <p id="dest">
       
       </p>
-      <button onclick="download()">
+      <div>
+      <button onclick="sound()">
           play
       </button>
-      
+      </div>
    </body>
-   <script src=
-"https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js">
-   </script>
    <script>
-      function download(){
+      function sound(){
         play()
-          axios({
-              url:'https://filebin.net/ufyg7xtvv7haa38w',
-              method:'GET',
-              responseType: 'blob'
-      })
       }
        
    </script>
