@@ -6,5 +6,6 @@ button {
   background-color: #04AA6D;
   padding: 12px 28px;
   border-radius: 12px;
-  border: 2px solid #04AA6D;
+  border: 2px solid #5a8558;
+  font-size: 25px;  
 }
