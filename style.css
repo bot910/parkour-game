@@ -2,7 +2,7 @@ html {
   height: 100%;
   width: 100%;
 }
-.button {
+button {
   background-color: #04AA6D;
   padding: 12px 28px;
   border-radius: 12px;
