@@ -1,34 +1,67 @@
 html {
-  height: 100%;
-  width: 100%;
-}
-button {
-  background-color: #04AA6D;
-  padding: 12px 28px;
-  border-radius: 12px;
-  border: 2px solid #5a8558;
-  font-size: 25px;  
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%)
-}
-body {
-  margin: 0;
-}
 
-img {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -1;
-}
+    height: 100%;
 
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+    width: 100%;
+
+  }
+
+  button {
+
+    background-color: #04AA6D;
+
+    padding: 12px 28px;
+
+    border-radius: 12px;
+
+    border: 2px solid #5a8558;
+
+    font-size: 25px;  
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 1; /* Add this line to make the button appear in front of the image */
+
+  }
+
+  body {
+
+    margin: 0;
+
+  }
+
+
+  img {
+
+    position: relative;
+
+    height: 100vh;
+
+    width: 100vw;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: -1;
+
+  }
+
+
+  img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+  }
